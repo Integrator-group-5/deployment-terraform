@@ -1,0 +1,34 @@
+# Local Terraform files
+.terraform/
+.terraform.lock.hcl
+
+# Terraform variable files (often contain sensitive information)
+*.tfvars
+*.tfvars.json
+
+# Crash log files
+crash.log
+
+# Ignore override files as they are usually for local configuration
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Ignore sensitive data backups
+*.tfstate
+*.tfstate.*
+*.pem
+
+# Ignore plan files
+*.tfplan
+
+# Ignore core dump files
+core.*
+
+# Editor-specific or OS-specific files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+/misc/
